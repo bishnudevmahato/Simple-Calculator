@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#calsi{  
+    height: 600px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid rgb(167, 41, 41);
+}
+
+#full-screen{
+    width: 100%;
+    height: 10%;
+    color: white;
+    background-color: black;
+    text-align: right;
+    padding: 25px 5px;
+    font-size: 35px;
+}
+
+#screen{
+    width: 100%;
+    height: 10%;
+    color: white;
+    background-color: black;
+    text-align: right;
+    padding: 25px 5px;
+    font-size: 35px;
+}
+
+#calsi-buttons{
+    /* width: 100%; */
+    height: 79%;
+    background-color: black;
+}
+
+.calsi-button{
+    width: 24.5%;
+    height: 100%;
+    color: black;
+    background-color: rgb(235, 226, 222);
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.calsi-button:hover{
+    background-color: rgb(240, 226, 208);
+}
+
+.calsi-button:active{
+    background-color: rgb(245, 213, 194);
+}
+
+.calsi-button:last-child{
+    background-color: rgb(245, 178, 130);
+    color: rgb(26, 17, 7);
+}
+
+.calsi-button:last-child:hover{
+    background-color: rgb(248, 198, 182);
+}
+
+.calsi-button:last-child:active{
+    background-color:rgb(131, 122, 116)
+}
+
+.section{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin: 3px 3px 3px 3px;
+    height: 19.5%;
+}
+
+.section:last-child{
+    padding-bottom: 0;
+}
+
+#two{
+    width: 49.5%;
+}
+#three{
+    width: 74.75%;
+}
+
+/* Calculator History designing*/
+
+/* #history-box{
+    height: 100%;
+    width: 50%;
+    margin-top: 10px;
+    border: 2px solid black;
+    font-size: 40px;
+    color: red;
+}
+
+#calsi-history{
+    margin-left: 10px;
+    text-align: left;
+    color: black;
+} */
