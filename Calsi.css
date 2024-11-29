@@ -68,7 +68,8 @@ body{
 }
 
 .calsi-button:last-child:hover{
-    background-color: rgb(248, 198, 182);
+    background-color: rgb(248, 0,0);
+    
 }
 
 .calsi-button:last-child:active{
@@ -77,7 +78,7 @@ body{
 
 .section{
     display: flex;
-    align-content: stretch;
+    align-content: center;
     justify-content: space-between;
     margin: 3px 3px 3px 3px;
     height: 19.5%;
@@ -91,7 +92,7 @@ body{
     width: 49.5%;
 }
 #three{
-    width: 74.75%;
+    width: 49.5%;
 }
 
 /* Calculator History designing*/
